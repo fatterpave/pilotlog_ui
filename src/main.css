@@ -1,0 +1,85 @@
+@-webkit-keyframes blink {
+    0%   { background:#b31820; }
+    100% { background:gray; }
+}
+@-moz-keyframes blink {
+    0%   { background:#b31820; }
+    100% { background:gray; }
+}
+@-ms-keyframes blink {
+    0%   { background:#b31820; }
+    100% { background:gray; }
+}
+
+.blinking {
+    -webkit-animation: blink 1.5s infinite;
+    -moz-animation: blink 1.5s infinite;
+    -ms-animation: blink 1.5s infinite;
+}
+
+.mainheader{
+    background-color: #da9129;
+    color:white;
+    padding:15px;
+    padding-left:30px !important;
+}
+
+.alarm-table {
+    background-color: #da9129 !important;
+}
+
+.alarm-table-header{
+    background-color: #2a2a2a;
+    color:#F9F9F9 !important;
+}
+
+.table-row{
+    background-color: #ececec !important;
+    cursor: pointer;
+    border:none !important;
+}
+
+.no-hand{
+    cursor:default !important;
+}
+
+.table-row-italic{
+    background-color: #ececec !important;
+    cursor: pointer;
+    font-style: italic;
+}
+
+html {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.infolabel-main{
+    height:300px;
+}
+
+.infolabel-upperlower{
+    text-align: center;
+    padding: 25px 10px 20px 10px;
+    height:10%;
+}
+
+.infolabel-middle{
+    text-align: center;
+    height:30%;
+    font-size:40px;
+    padding-top:10px;
+}
+
+.mediumgray{
+    background-color:#bfbfbf
+}
+
+.lightergray{
+    background-color: #e8e8e8;;
+}
+
+.alarm-table-standard-padding
+{
+    padding-left:5px;
+    padding-right:5px;
+}
